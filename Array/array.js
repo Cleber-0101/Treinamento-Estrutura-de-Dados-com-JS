@@ -15,7 +15,6 @@ console.log(diasDaSemana.push("testando pop"))
 
 //pop remove items do array
 
-
 // removendo dados a parti de uma posição: preciso passar a partir de qual posição irei remover e quantos item irei remover
 diasDaSemana.splice(3,4)
 
