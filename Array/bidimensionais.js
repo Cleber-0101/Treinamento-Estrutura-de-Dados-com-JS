@@ -11,3 +11,9 @@ avgTemp[1] = avgTemperatura2
 
 console.log(avgTemp[1][4])
 console.log(avgTemp)
+
+for(var k = 0; k < avgTemp.length; k++){
+    for(var n = 0; n < avgTemp[k].length; n++){
+        console.log("Percorrendo arrays bidimensionais: "+ avgTemp[k][n])
+    }
+}
