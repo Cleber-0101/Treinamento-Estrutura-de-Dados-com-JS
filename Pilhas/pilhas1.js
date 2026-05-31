@@ -39,3 +39,19 @@ function Stack() {
     }
 
 }
+
+var pilha = new Stack()
+
+pilha.push(100)
+pilha.push(90)
+pilha.push(80)
+pilha.push(70)
+pilha.push(60)
+pilha.push(50)
+pilha.push(40)
+pilha.push(30)
+pilha.push(20)
+pilha.push(10)
+pilha.push(9)
+pilha.push(8)
+pilha.push(7)
