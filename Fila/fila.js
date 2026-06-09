@@ -1,4 +1,5 @@
-function queue(){
+function Queue(){
+    //lista completamente fazia
     let items =  []
 
     this.adiciona = function(algumacoisa){
@@ -19,7 +20,7 @@ function queue(){
     this.verificaVazio = function(){
         //verifica se a fila esta vazia
         // se for igaul a 0 ela esta vazia se não for é porque tem alguma coisa na fila 
-        return items.length = 0
+        return items.length === 0
     }
 
     this.size = function(){
@@ -32,3 +33,16 @@ function queue(){
         console.log(items.toString())
     }
 }
+
+// criando istancia da classe
+
+var fila = new Queue()
+
+fila.adiciona("passando alguma coisa")
+
+fila.adiciona("Cleber")
+fila.adiciona("João")
+fila.adiciona("jessica")
+
+fila.printar()
+

@@ -1,9 +1,11 @@
 // esqueleto 
 // Ultilizando Classes 
 function Stack() {
+
     let items = []
+
     // metodos pré implementados 
-    this.push = function () {
+    this.push = function (elemento) {
         // adiciona item na pilha 
         items.push(elemento)
     }
@@ -20,7 +22,14 @@ function Stack() {
 
     this.isEmpty = function () {
         //informar se a pilha esta vazia ou não 
-        return items.length === 0
+        // se a pilha for igua a ZERO quer dizer que a pilha esta vazia, do contrario ela esta preechida ou seja tem um dado 
+        //return items.length === 0
+
+
+        //teste
+        if(items === 0 || item >= 1){
+            return items
+        }
     }
 
     this.clear = function () {
@@ -42,16 +51,13 @@ function Stack() {
 
 var pilha = new Stack()
 
-pilha.push(100)
-pilha.push(90)
-pilha.push(80)
-pilha.push(70)
-pilha.push(60)
-pilha.push(50)
-pilha.push(40)
-pilha.push(30)
-pilha.push(20)
-pilha.push(10)
-pilha.push(9)
-pilha.push(8)
-pilha.push(7)
+// //preenchendo a pilha com dados
+// pilha.push(100)
+// pilha.push(90)
+// pilha.push(80)
+
+
+
+
+pilha.print()
+
